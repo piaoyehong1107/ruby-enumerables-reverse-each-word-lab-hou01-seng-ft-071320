@@ -1,3 +1,6 @@
 def  reverse_each_word (sentence)
-  sentence.each do |element|
-    
+  array = sentence.split
+  array.map do |element|
+    element.reverse
+  end
+end
